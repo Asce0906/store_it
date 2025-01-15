@@ -23,8 +23,8 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                     <Image
                         src='/assets/images/files.png'
                         alt='illustration'
-                        width={342}
-                        height={342}
+                        width={300}
+                        height={300}
                         className='transition-all hover:scale-105 hover:rotate-2'
                     />
                 </div>
@@ -37,10 +37,10 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                         alt='logo'
                         width={224}
                         height={82}
-                        className='w-[200px] lg:w-[250px]  h-auto'
+                        className='w-[200px] lg:w-[250px] h-auto'
                     />
                 </div>
-                
+
                 {children}
             </section>
         </div>
